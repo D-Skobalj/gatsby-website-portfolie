@@ -18,6 +18,16 @@ a:active {
   text-decoration: none;
 }
 
+.skills svg {
+  margin: 0 1rem 2rem 0;
+  font-size: 3rem;
+}
+
+.toolTitle {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
 a:hover {
   transition: all 0.3s ease-in-out;
 }
