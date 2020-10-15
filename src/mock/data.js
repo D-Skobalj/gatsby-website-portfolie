@@ -8,7 +8,7 @@ import { DiMongodb } from 'react-icons/di'
 export const headData = {
   title: 'Denis Skobalj', // e.g: 'Name | Developer'
   lang: 'se', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Denis skobalj - portfoliehemsida', // e.g: Welcome to my website
 };
 
 // HERO DATA
