@@ -13,7 +13,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hej🖖, mitt namn är',
+  title: 'Hej🖖😃, mitt namn är',
   name: 'Denis Skobalj',
   subtitle: 'och jag är en frontend utvecklare bosatt i Malmö',
   cta: 'Mer om mig',
