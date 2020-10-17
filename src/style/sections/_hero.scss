@@ -4,7 +4,11 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background-image: url('https://4kwallpapers.com/images/wallpapers/landscape-grass-field-hills-clear-sky-microsoft-surface-2560x1440-1398.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  //background: $white-color;
   font-weight: 400;
   color: #fff;
   padding: 0rem 5.6rem;
@@ -14,13 +18,6 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  background-image: url('https://4kwallpapers.com/images/wallpapers/landscape-grass-field-hills-clear-sky-microsoft-surface-2560x1440-1398.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: none;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;

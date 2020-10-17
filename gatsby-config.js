@@ -1,3 +1,5 @@
+
+
 module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
@@ -23,13 +25,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Denis Skobalj - Frontend utvecklare`,
+        short_name: `DS - Portfolie`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
-        icon: 'src/images/favicon.png',
+        icon: '',   
       },
     },
   ],

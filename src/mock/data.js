@@ -6,7 +6,7 @@ import { DiMongodb } from 'react-icons/di'
 
 // HEAD DATA
 export const headData = {
-  title: 'Denis Skobalj', // e.g: 'Name | Developer'
+  title: '🕹️ Denis Skobalj', // e.g: 'Name | Developer'
   lang: 'se', // e.g: en, es, fr, jp
   description: 'Denis skobalj - portfoliehemsida', // e.g: Welcome to my website
 };
@@ -54,7 +54,7 @@ const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'zc-1-01.jpg',
+    img: 'zc-01.jpg',
     title: 'E-handel med wordpress',
     info: 'www.zebra-collection.se är en e-handel jag var med och utvecklade på min tid på zebra-collection.',
     info2: 'Är i botten byggt på en mall som där lagts till extra funktionalliteter som bland annat ett login för deras mediabank samt använding av google API:er. ',
