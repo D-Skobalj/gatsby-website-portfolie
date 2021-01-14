@@ -22,7 +22,6 @@ function App() {
     setProjects([...projectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
-    console.log(heroData)
   }, []);
 
   return (

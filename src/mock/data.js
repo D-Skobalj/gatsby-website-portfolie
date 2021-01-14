@@ -1,8 +1,8 @@
 import { nanoid } from 'nanoid';
 import React from 'react'
-import { FaHtml5, FaCss3, FaReact, FaWordpress, FaNodeJs, FaGitSquare } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
-import { DiMongodb } from 'react-icons/di'
+import { FaHtml5, FaCss3, FaReact, FaWordpress, FaNodeJs, FaGitSquare, FaSass } from 'react-icons/fa'
+import { SiJavascript, SiGatsby } from 'react-icons/si'
+import { DiMongodb, DiNpm } from 'react-icons/di'
 
 // HEAD DATA
 export const headData = {
@@ -30,32 +30,22 @@ export const aboutData = {
 
 // PROJECTS DATA
 const projectsData = [
+
   {
     id: nanoid(),
-    img: 'finalspace.jpg',
-    title: 'Kommer snart',
-    info: '',
+    img: 'thum-nail.jpg',
+    title: 'Pagination och sorting med react',
+    info: 'Ett litet projekt jag skapade för testa pagination, sort och custom hooks.',
     info2: '',
-    toolTitle: '',
-    tools: '',
-    url: '',
-    repo: 'https://github.com/d-skobalj', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'finalspace.jpg',
-    title: 'Kommer snart',
-    info: '',
-    info2: '',
-    toolTitle: '',
-    tools: '',
-    url: '',
-    repo: 'https://github.com/d-skobalj', // if no repo, the button will not show up
+    toolTitle: 'I verktygslådan:',
+    tools: [<FaHtml5 />, <FaSass />, <FaReact />, <SiJavascript />, <SiGatsby />, <DiNpm />],
+    url: 'https://epic-shirley-ec7a5b.netlify.app/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'zc-01.jpg',
-    title: 'E-handel med wordpress',
+    title: 'E-handel med wordpress som CMS',
     info: 'www.zebra-collection.se är en e-handel jag var med och utvecklade på min tid på zebra-collection.',
     info2: 'Är i botten byggt på en mall som där lagts till extra funktionalliteter som bland annat ett login för deras mediabank samt använding av google API:er. ',
     toolTitle: 'I verktygslådan:',
